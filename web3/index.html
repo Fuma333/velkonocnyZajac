@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/form.css">
+    <title>WEB 3</title>
+</head>
+<body>
+
+    <div class="modal" id="modal">
+        <div class="modal-box">
+            <h3>Dakujeme sprava bola poslana</h3>
+            <button onclick="hideModal()">Zavrieť</button>
+        </div>
+    </div>
+
+
+    <div id="main">
+        <div class="left">
+            <nav>
+                <ul>
+                    <li><a href="#">Domov</a></li>
+                    <li>
+                        <label>
+                            <input type="radio" name="menu"/>
+                            <a href="#">Ponuka</a>
+                            <ul>
+                                <li><a href="#">Okna</a></li>
+                                <li><a href="/">Kurenie</a></li>
+                                <li><a href="#">Voda</a></li>
+                                <li><a href="#">Plyn</a></li>
+                                <li><a href="#">Krovy</a></li>
+                                <li><a href="#">Elektrika</a></li>
+                                <li><a href="#">Kupelne</a></li>
+                                <li><a href="#">Kuchyne</a></li>
+                                <li><a href="#">Ploty</a></li>
+                            </ul>
+                        </label>
+                    </li>
+                    <li><a href="#">O nas</a></li>
+                    <li>
+                        <label>
+                            <input type="radio" name="menu">
+                            <a href="#">Kontakty</a>
+                            <ul>
+                                <li><a href="#">Mzdove</a></li>
+                                <li><a href="#">Odbyt</a></li>
+                                <li><a href="#">Reklamacie</a></li>
+                                <li><a href="#">Marketing</a></li>
+                            </ul>
+                        </label>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="video-box">
+                <video width="400" autoplay muted>
+                    <source src="images/mov_bbb.mp4" type="video/mp4">
+                    <source src="images/mov_bbb.ogg" type="video/ogg">
+                    Your browser does not support HTML video.
+                </video>
+                <div class="video-box-content">
+                    <h1>Slogan firmy aadsd dasd </h1>
+                    <h2>neajky text 2 </h2>
+                </div>
+            </div>
+
+            <div class="form-box">
+                <input type="radio" name="tab" id="tab1">
+                <label for="tab1">tab1</label>
+                <input type="radio" name="tab" id="tab2" checked>
+                <label for="tab2">tab2</label>
+                <input type="radio" name="tab" id="tab3">
+                <label for="tab3">tab3</label>
+                <div class="tab tab1">
+                    obsah pre tab1
+                    <form>
+                        <div class="form-row">
+                            <input type="text" name="meno" placeholder="Meno" value=""/>
+                            <input type="text" name="Priezvisko" placeholder="Priezvisko"  value=""/>
+                        </div>
+                        <div class="form-row">
+                            <input type="email" name="email" placeholder="email" value=""/>
+                            <input type="tel" name="tel" placeholder="telefon" value=""/>
+                        </div>
+                        <div class="form-row">
+                            <textarea name="sprava" placeholder="Vasa sprava..."></textarea>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="custom-check">
+                                <input name="gdpr1" type="checkbox" id="gdpr1" value="ano"/>
+                                <label for="gdpr1"> <span></span>Suhlas s <a href="#">podmienkamy</a></label>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="custom-check">
+                                <input name="gdpr2" type="checkbox" id="gdpr2" value="ano"/>
+                                <label for="gdpr2"> <span></span>Suhlasim zo zasielanim noviniek</a></label>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="custom-submit is-inloading">
+                                <input type="submit" name="submit" value="Odoslat">
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+                <div class="tab tab2">
+                    obsah pre tab2
+                    <form>
+                        <div class="form-row">
+                            <input type="text" name="meno" placeholder="Meno" value=""/>
+                            <input type="text" name="Priezvisko" placeholder="Priezvisko"  value=""/>
+                        </div>
+                        <div class="form-row">
+                            <div class="custom-date">
+                                <input type="date" name="date" placeholder="Vyberte datum"/>
+                            </div>
+                            <input type="email" name="email" placeholder="email" value=""/>
+                        </div>
+                    </form>
+                </div>
+                <div class="tab tab3">
+                    obsah pre tab 3
+                </div>
+            </div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+        <div class="right">
+                <button onclick="showModal()">ukaz model</button>
+            <img src="images/walker.jpg">
+            <div class="sticky-bar">
+                <img src="images/tropper.jpg">
+            </div>
+        </div>
+    </div>
+</body>
+
+    <script>
+        function showModal () {
+           
+        var element = document.getElementById("modal");
+        element.classList.add("active");
+    }
+    function hideModal() {
+        var element = document.getElementById("modal");
+        element.classList.remove("active");
+    }
+    </script>
+</html>
